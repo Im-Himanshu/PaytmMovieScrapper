@@ -32,7 +32,7 @@ try:
                 # href2 = OneMovie.find_element_by_xpath('//a[@href]')
                 # for href3 in href2 :
                 #     print(href3.get_attribute('href'))
-                Movietitle = OneMovie.find_element_by_xpath('./a/div[2]').text;
+                Movietitle = OneMovie.find_element_by_xpath('./a/div[2]').text; #jjfnd
                 Movietitle= Movietitle.replace('\n', '_')
                 Movielanguage = OneMovie.find_element_by_xpath('./a/div[2]/span').text;
                 print(Movietitle)
